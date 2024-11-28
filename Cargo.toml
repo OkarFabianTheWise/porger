@@ -1,0 +1,10 @@
+[package]
+name = "porger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.40.0", features = ["full"] }
+tokio-stream = { version = "0.1.16", features = ["fs"] }
+chrono = "0.4.38"
+druid = "0.8.2"  # Latest 
